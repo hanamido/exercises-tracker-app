@@ -11,8 +11,8 @@ function Exercise({ exercise, onEdit, onDelete }) {
             <td>{exercise.weight}</td>
             <td>{exercise.unit}</td>
             <td>{exercise.date}</td>
-            <td className="click"><FaEdit onClick={ () => onEdit(exercise) }/></td>
-            <td className="click"><AiFillDelete onClick={ () => onDelete(exercise._id) }/></td>
+            <td><FaEdit onClick={ () => onEdit(exercise) }/></td>
+            <td><AiFillDelete onClick={ () => onDelete(exercise._id) }/></td>
         </tr>
     );
 }

@@ -59,7 +59,7 @@ export const CreateExercisePage = () => {
                 value={date}
                 placeholder="Format MM-DD-YY"
                 onChange={e => setDate(String(e.target.value))} /></td>
-            <button onClick={addExercise} className="click" >Submit</button>
+            <button onClick={addExercise} >Submit</button>
         </div>
     )
 };

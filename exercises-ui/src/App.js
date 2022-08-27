@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import CreateExercisePage from './pages/CreateExercisePage';
 import EditExercisePage from './pages/EditExercisePage';
 import Navigation from './components/Navigation';
+import ExerciseRow from './components/ExerciseRow';
 import { useState } from 'react';
 
 function App() {
