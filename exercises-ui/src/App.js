@@ -18,16 +18,16 @@ function App() {
           <header><h1>Exercise Tracker</h1>
           <p>Track your exercises below!
           To get started, add, edit, and delete exercises as needed.</p></header>
-          <Navigation />
-          <Routes>
-            <Route exact path="/" 
-              element = {<HomePage setExerciseToEdit={setExerciseToEdit} />} />
-            <Route path="/add-exercise"
-              element = {<CreateExercisePage />} />
-            <Route path="/edit-exercise"
-              element = {<EditExercisePage exerciseToEdit={exerciseToEdit} />} />
-          </Routes>
-          <footer>© 2022 Hanami Do</footer>
+            <Navigation />
+            <Routes>
+              <Route exact path="/" 
+                element = {<HomePage setExerciseToEdit={setExerciseToEdit} />} />
+              <Route path="/add-exercise"
+                element = {<CreateExercisePage />} />
+              <Route path="/edit-exercise"
+                element = {<EditExercisePage exerciseToEdit={exerciseToEdit} />} />
+            </Routes>
+            <footer>© 2022 Hanami Do</footer>
         </div>
     </div>
     </Router>
